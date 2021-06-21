@@ -1,0 +1,14 @@
+#vs code files
+.vscode
+#executable
+a.out
+*.sw*
+.Ds_Store
+*.h.*
+a.out.dSYM
+#object libraries files
+*.o
+#Clion object
+CMakeLists.txt
+Libft/*.o
+Libft/*.a
