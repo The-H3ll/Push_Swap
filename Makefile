@@ -14,7 +14,7 @@ NAME= push_swap
 
 FLAGS= -Wall -Wextra -Werror
 
-CC= gcc
+CC= gcc -g
 
 SRCS= push_swap.c push_swap_instruction.c push_algo.c
 
