@@ -16,7 +16,10 @@ FLAGS= -Wall -Wextra -Werror
 
 CC= gcc -g
 
-SRCS= push_swap.c push_swap_instruction.c push_algo.c
+SRCS= push_swap.c push_swap_instruction.c push_algo.c push_algo_helper.c \
+		push_algo_helper_two.c push_algo_helper_three.c push_algo_helper_four.c \
+		push_algo_helper_five.c
+
 
 OBJ= $(SRCS:.c=.o)
 

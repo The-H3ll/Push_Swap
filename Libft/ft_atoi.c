@@ -43,7 +43,7 @@ int	go_next(char str)
 long 	ft_atoi(const char *str)
 {
 	long		i;
-	long 		res;
+	long		res;
 	int			neg;
 
 	i = 0;
